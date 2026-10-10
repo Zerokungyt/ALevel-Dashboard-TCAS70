@@ -33,4 +33,10 @@ Desktop and mobile screenshots were visually inspected for typography, chart sca
 
 GitHub CLI authentication is verified for Zerokungyt. The public repository `Zerokungyt/ALevel-Dashboard-TCAS70` was created and Pages was enabled with `build_type: workflow`. All five pinned official Actions manifests were previously checked successfully.
 
-The production build and all six tests passed for the actual repository base path `/ALevel-Dashboard-TCAS70/`. No application rebuild from scratch or changes to other projects were made. Workflow completion and the live site must be verified after the initial push.
+The production build and all six tests passed for the actual repository base path `/ALevel-Dashboard-TCAS70/`. No application rebuild from scratch or changes to other projects were made.
+
+**Deployment succeeded.** The [initial publication workflow](https://github.com/Zerokungyt/ALevel-Dashboard-TCAS70/actions/runs/38061281955) completed with conclusion `success`: both build and deploy passed for commit `1871809006215b7288f853014020d61bf6052cdf`. GitHub recorded a successful `github-pages` deployment.
+
+The live website is [https://zerokungyt.github.io/ALevel-Dashboard-TCAS70/](https://zerokungyt.github.io/ALevel-Dashboard-TCAS70/). The page, `blueprint.json`, JavaScript, CSS and both font assets returned HTTP 200. The published JSON exactly matched the local dataset and the HTML used the correct repository asset paths.
+
+Direct live-page browser testing was blocked by this environment's `ERR_NETWORK_ACCESS_DENIED`; no successful live browser check is claimed. The earlier local production browser checks remain applicable, and live HTTP/content/asset verification succeeded independently through PowerShell.

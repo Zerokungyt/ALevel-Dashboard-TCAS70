@@ -89,6 +89,8 @@ Project repositories build under `/<repository-name>/`; user or organization rep
 
 The public source repository is [Zerokungyt/ALevel-Dashboard-TCAS70](https://github.com/Zerokungyt/ALevel-Dashboard-TCAS70). GitHub Pages is configured with GitHub Actions as its deployment source. The production base path is `/ALevel-Dashboard-TCAS70/`, resolved automatically from the repository identity.
 
+Live website: [A-Level Exam Weight Dashboard — TCAS70](https://zerokungyt.github.io/ALevel-Dashboard-TCAS70/). Publication was verified with a successful Actions deployment and HTTP 200 responses for the page, JSON data and application assets.
+
 Push changes to `main` to test, build and publish automatically. For a manual deployment, run:
 
 ```powershell
