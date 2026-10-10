@@ -1,0 +1,1943 @@
+{
+  "schemaVersion": 1,
+  "title": "A-Level Exam Weight Dashboard — TCAS70",
+  "examYear": "TCAS70",
+  "verifiedAt": "2026-10-10",
+  "sourceIndex": "https://www.mytcas.com/blueprint/",
+  "methodology": {
+    "percentage": "จำนวนข้อขั้นต่ำหรือสูงสุดของหมวด ÷ จำนวนข้อทั้งวิชา × 100 (คำนวณจากจำนวนข้อทางการ)",
+    "ranking": "เรียงตามค่ากลางของช่วงสัดส่วนข้อสอบจากมากไปน้อยภายในวิชา; ค่าเท่ากันได้อันดับร่วม; ค่ากลางใช้เพื่อจัดลำดับ ไม่ใช่การพยากรณ์จำนวนข้อจริง",
+    "scoreCoverage": "อังกฤษและสังคมใช้คะแนนรายหมวดทางการ; วิชาที่มีหลายรูปแบบคำนวณขอบเขตคะแนนเต็มโดยจัดข้อขั้นต่ำให้รูปแบบคะแนนต่อข้อต่ำสุดก่อน และข้อสูงสุดให้รูปแบบคะแนนต่อข้อสูงสุดก่อน ภายใต้จำนวนข้อแต่ละรูปแบบทั้งฉบับ",
+    "scoreLimit": "ช่วงคะแนนเป็นขอบเขตเชิงคำนวณเมื่อทำถูกเต็มทุกข้อในหมวด ไม่ใช่คะแนนคาดการณ์หรือคะแนนรายหมวดที่ทางการรับรอง และไม่บวกคะแนนซ้ำจากข้อบูรณาการ",
+    "subtopics": "ทางการให้จำนวนข้อเฉพาะหมวด ไม่ระบุจำนวนข้อ สัดส่วน หรือคะแนนรายบท จึงเก็บเป็น null",
+    "missing": "null หมายถึงไม่ระบุ ไม่ใช่ศูนย์; ภาษาไทยไม่มีอันดับรายหมวด",
+    "disclaimer": "Blueprint เป็นแนวทางเตรียมสอบ รายละเอียดข้อสอบจริงอาจแตกต่างจากตัวอย่าง; Dashboard นี้ไม่ใช่เว็บไซต์ของ ทปอ."
+  },
+  "subjects": [
+    {
+      "id": "Physics",
+      "code": "64",
+      "nameTh": "ฟิสิกส์",
+      "nameEn": "Physics",
+      "totalQuestions": 30,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ปรนัย 5 ตัวเลือก",
+          "count": 25,
+          "totalScore": 75,
+          "pointsPerQuestion": 3
+        },
+        {
+          "label": "ระบายคำตอบที่เป็นตัวเลข",
+          "count": 5,
+          "totalScore": 25,
+          "pointsPerQuestion": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "physics-1",
+          "order": 1,
+          "name": "กลศาสตร์",
+          "subtopics": [
+            {
+              "name": "ธรรมชาติและพัฒนาการทางฟิสิกส์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การเคลื่อนที่แนวตรง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "แรงและกฎการเคลื่อนที่",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "สมดุลกลของวัตถุ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "งานและกฎการอนุรักษ์พลังงานกล",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "โมเมนตัมและการชน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การเคลื่อนที่แนวโค้ง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การเคลื่อนที่แบบฮาร์มอนิกส์อย่างง่าย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 8,
+            "max": 10,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 26.666666666666668,
+            "max": 33.33333333333333,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 24,
+            "max": 40,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 30,
+          "rank": 1
+        },
+        {
+          "id": "physics-2",
+          "order": 2,
+          "name": "คลื่นกล และแสง",
+          "subtopics": [
+            {
+              "name": "คลื่น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เสียง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "แสง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 5,
+            "max": 7,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 16.666666666666664,
+            "max": 23.333333333333332,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 15,
+            "max": 31,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 20,
+          "rank": 3
+        },
+        {
+          "id": "physics-3",
+          "order": 3,
+          "name": "ไฟฟ้า แม่เหล็ก และคลื่นแม่เหล็กไฟฟ้า",
+          "subtopics": [
+            {
+              "name": "ไฟฟ้าสถิต",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ไฟฟ้ากระแส",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "แม่เหล็กและไฟฟ้า",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "คลื่นแม่เหล็กไฟฟ้า",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 6,
+            "max": 8,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 20,
+            "max": 26.666666666666668,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 18,
+            "max": 34,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 23.333333333333332,
+          "rank": 2
+        },
+        {
+          "id": "physics-4",
+          "order": 4,
+          "name": "อุณหพลศาสตร์ และสมบัติเชิงกลของสาร",
+          "subtopics": [
+            {
+              "name": "ความร้อนและแก๊ส",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ของแข็งและของไหล",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 3,
+            "max": 5,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 10,
+            "max": 16.666666666666664,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 9,
+            "max": 25,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 13.333333333333334,
+          "rank": 4
+        },
+        {
+          "id": "physics-5",
+          "order": 5,
+          "name": "ฟิสิกส์แผนใหม่",
+          "subtopics": [
+            {
+              "name": "ฟิสิกส์อะตอม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ฟิสิกส์นิวเคลียร์และฟิสิกส์อนุภาค",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 3,
+            "max": 5,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 10,
+            "max": 16.666666666666664,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 9,
+            "max": 25,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 13.333333333333334,
+          "rank": 4
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-64-phy/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "776a786ebe332f2b05714500132539d2c79f9bca7ae56e00969e981ad825ac5c"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ",
+        "บางข้อบูรณาการระหว่างเนื้อหา; ทางการไม่ระบุการกระจายรูปแบบข้อสอบรายหมวด"
+      ]
+    },
+    {
+      "id": "Chemistry",
+      "code": "65",
+      "nameTh": "เคมี",
+      "nameEn": "Chemistry",
+      "totalQuestions": 35,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ปรนัย 5 ตัวเลือก",
+          "count": 30,
+          "totalScore": 75,
+          "pointsPerQuestion": 2.5
+        },
+        {
+          "label": "ระบายคำตอบที่เป็นตัวเลข",
+          "count": 5,
+          "totalScore": 25,
+          "pointsPerQuestion": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "chemistry-1",
+          "order": 1,
+          "name": "สมบัติของธาตุและสารประกอบ",
+          "subtopics": [
+            {
+              "name": "อะตอมและสมบัติของธาตุ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "พันธะเคมี",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "แก๊ส",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เคมีอินทรีย์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "พอลิเมอร์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 15,
+            "max": 17,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 42.857142857142854,
+            "max": 48.57142857142857,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 37.5,
+            "max": 55,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 45.714285714285715,
+          "rank": 1
+        },
+        {
+          "id": "chemistry-2",
+          "order": 2,
+          "name": "สมการเคมีและการเปลี่ยนแปลงทางเคมี",
+          "subtopics": [
+            {
+              "name": "ปริมาณสัมพันธ์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "อัตราการเกิดปฏิกิริยาเคมี",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "สมดุลเคมี",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "กรด–เบส",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เคมีไฟฟ้า",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 15,
+            "max": 17,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 42.857142857142854,
+            "max": 48.57142857142857,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 37.5,
+            "max": 55,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 45.714285714285715,
+          "rank": 1
+        },
+        {
+          "id": "chemistry-3",
+          "order": 3,
+          "name": "ทักษะในปฏิบัติการเคมีและการคำนวณปริมาณของสาร",
+          "subtopics": [
+            {
+              "name": "ความปลอดภัยและทักษะในปฏิบัติการเคมี",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "โมล",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "สารละลาย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 2,
+            "max": 4,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 5.714285714285714,
+            "max": 11.428571428571429,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 5,
+            "max": 20,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 8.571428571428571,
+          "rank": 3
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-65-chem/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "d5aae3ba0b6280bb018de4120b0c54eb870070d07d412ef31e3add01ab4b0960"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ",
+        "บางข้อบูรณาการระหว่างเนื้อหา; ทางการไม่ระบุการกระจายรูปแบบข้อสอบรายหมวด"
+      ]
+    },
+    {
+      "id": "Biology",
+      "code": "66",
+      "nameTh": "ชีววิทยา",
+      "nameEn": "Biology",
+      "totalQuestions": 40,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ปรนัย 5 ตัวเลือก",
+          "count": 35,
+          "totalScore": 84,
+          "pointsPerQuestion": 2.4
+        },
+        {
+          "label": "เลือกตอบเชิงซ้อน",
+          "count": 5,
+          "totalScore": 16,
+          "pointsPerQuestion": 3.2
+        }
+      ],
+      "groups": [
+        {
+          "id": "biology-1",
+          "order": 1,
+          "name": "ความหลากหลายทางชีวภาพและสิ่งแวดล้อม",
+          "subtopics": [
+            {
+              "name": "ระบบนิเวศและไบโอม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ประชากร",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ความหลากหลายของสิ่งมีชีวิตและอนุกรมวิธาน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 5,
+            "max": 7,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 12.5,
+            "max": 17.5,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 12,
+            "max": 20.8,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 15,
+          "rank": 5
+        },
+        {
+          "id": "biology-2",
+          "order": 2,
+          "name": "หน่วยพื้นฐานของสิ่งมีชีวิต",
+          "subtopics": [
+            {
+              "name": "เคมีที่เป็นพื้นฐานของสิ่งมีชีวิต",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "โครงสร้างและการทำงานของเซลล์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 6,
+            "max": 8,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 15,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 14.4,
+            "max": 23.2,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 17.5,
+          "rank": 2
+        },
+        {
+          "id": "biology-3",
+          "order": 3,
+          "name": "ระบบและการทำงานต่าง ๆ ของสัตว์และมนุษย์",
+          "subtopics": [
+            {
+              "name": "ระบบย่อยอาหาร",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบหมุนเวียนเลือด",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบน้ำเหลืองและระบบภูมิคุ้มกัน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบขับถ่าย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบหายใจ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบประสาทและการเคลื่อนที่",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบสืบพันธุ์และการเจริญเติบโต",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระบบต่อมไร้ท่อ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "พฤติกรรมของสัตว์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 12,
+            "max": 14,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 30,
+            "max": 35,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 28.8,
+            "max": 37.6,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 32.5,
+          "rank": 1
+        },
+        {
+          "id": "biology-4",
+          "order": 4,
+          "name": "โครงสร้างและการทำงานของส่วนต่าง ๆ ในพืช",
+          "subtopics": [
+            {
+              "name": "เนื้อเยื่อและโครงสร้างภายในของพืช",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การแลกเปลี่ยนแก๊ส การคายน้ำของพืช และการลำเลียงของพืช",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การสังเคราะห์ด้วยแสงและสารอินทรีย์ในพืช",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การสืบพันธุ์ของพืชดอก",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การควบคุมการเจริญเติบโตและการตอบสนองของพืช",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 6,
+            "max": 8,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 15,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 14.4,
+            "max": 23.2,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 17.5,
+          "rank": 2
+        },
+        {
+          "id": "biology-5",
+          "order": 5,
+          "name": "พันธุศาสตร์และวิวัฒนาการ",
+          "subtopics": [
+            {
+              "name": "การถ่ายทอดลักษณะทางพันธุกรรม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "สมบัติของสารพันธุกรรม ความสัมพันธ์ระหว่างยีน การสังเคราะห์โปรตีน และลักษณะทางพันธุกรรม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การเปลี่ยนแปลงทางพันธุกรรม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เทคโนโลยีทางดีเอ็นเอ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "วิวัฒนาการและพันธุศาสตร์ประชากร",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 6,
+            "max": 8,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 15,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 14.4,
+            "max": 23.2,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 17.5,
+          "rank": 2
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-66-bio/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "ceef895e62d092af7a7f71b5b4b5f3e9291b179d9b29036ae8021c0bf1e850ef"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ",
+        "บางข้อบูรณาการระหว่างเนื้อหา; ทางการไม่ระบุการกระจายรูปแบบข้อสอบรายหมวด"
+      ]
+    },
+    {
+      "id": "Math1",
+      "code": "61",
+      "nameTh": "คณิตศาสตร์ประยุกต์ 1",
+      "nameEn": "Mathematics 1",
+      "totalQuestions": 30,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ปรนัย 5 ตัวเลือก",
+          "count": 25,
+          "totalScore": 75,
+          "pointsPerQuestion": 3
+        },
+        {
+          "label": "ระบายคำตอบที่เป็นตัวเลข",
+          "count": 5,
+          "totalScore": 25,
+          "pointsPerQuestion": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "math1-1",
+          "order": 1,
+          "name": "สาระจำนวนและพีชคณิต",
+          "subtopics": [
+            {
+              "name": "เซต",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ตรรกศาสตร์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "จำนวนจริงและพหุนาม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ฟังก์ชัน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ฟังก์ชันเอกซ์โพเนนเชียลและฟังก์ชันลอการิทึม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ฟังก์ชันตรีโกณมิติ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "จํานวนเชิงซ้อน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เมทริกซ์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ลําดับและอนุกรม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 15,
+            "max": 17,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 50,
+            "max": 56.666666666666664,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 45,
+            "max": 61,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 53.333333333333336,
+          "rank": 1
+        },
+        {
+          "id": "math1-2",
+          "order": 2,
+          "name": "สาระการวัดและเรขาคณิต",
+          "subtopics": [
+            {
+              "name": "เรขาคณิตวิเคราะห์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เวกเตอร์ในสามมิติ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 3,
+            "max": 5,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 10,
+            "max": 16.666666666666664,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 9,
+            "max": 25,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 13.333333333333334,
+          "rank": 3
+        },
+        {
+          "id": "math1-3",
+          "order": 3,
+          "name": "สาระสถิติและความน่าจะเป็น",
+          "subtopics": [
+            {
+              "name": "สถิติ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การแจกแจงความน่าจะเป็นเบื้องต้น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "หลักการนับเบื้องต้น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ความน่าจะเป็น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 6,
+            "max": 8,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 20,
+            "max": 26.666666666666668,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 18,
+            "max": 34,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 23.333333333333332,
+          "rank": 2
+        },
+        {
+          "id": "math1-4",
+          "order": 4,
+          "name": "สาระแคลคูลัส",
+          "subtopics": [
+            {
+              "name": "แคลคูลัสเบื้องต้น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 2,
+            "max": 4,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 6.666666666666667,
+            "max": 13.333333333333334,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 6,
+            "max": 20,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 10,
+          "rank": 4
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-61-math1/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "80c0d1e603b1a13a503129af01e7fa7c405ce35af45278b4584142ac425a93b4"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ",
+        "บางข้อบูรณาการระหว่างเนื้อหา; ทางการไม่ระบุการกระจายรูปแบบข้อสอบรายหมวด"
+      ]
+    },
+    {
+      "id": "Math2",
+      "code": "62",
+      "nameTh": "คณิตศาสตร์ประยุกต์ 2",
+      "nameEn": "Mathematics 2",
+      "totalQuestions": 30,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ปรนัย 5 ตัวเลือก",
+          "count": 25,
+          "totalScore": 75,
+          "pointsPerQuestion": 3
+        },
+        {
+          "label": "ระบายคำตอบที่เป็นตัวเลข",
+          "count": 5,
+          "totalScore": 25,
+          "pointsPerQuestion": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "math2-1",
+          "order": 1,
+          "name": "จำนวนและพีชคณิต",
+          "subtopics": [
+            {
+              "name": "เซต",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ตรรกศาสตร์เบื้องต้น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เลขยกกำลัง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ฟังก์ชัน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ลําดับและอนุกรม",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ดอกเบี้ยและมูลค่าของเงิน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 14,
+            "max": 16,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 46.666666666666664,
+            "max": 53.333333333333336,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 42,
+            "max": 58,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 50,
+          "rank": 1
+        },
+        {
+          "id": "math2-2",
+          "order": 2,
+          "name": "สถิติและความน่าจะเป็น",
+          "subtopics": [
+            {
+              "name": "สถิติ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "หลักการนับเบื้องต้น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ความน่าจะเป็น",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 14,
+            "max": 16,
+            "kind": "official"
+          },
+          "officialScore": null,
+          "percentage": {
+            "min": 46.666666666666664,
+            "max": 53.333333333333336,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 42,
+            "max": 58,
+            "kind": "derived-bound"
+          },
+          "weightMidpoint": 50,
+          "rank": 1
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-62-math2/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "aecf644c7517e3d66c662d5f9b1848b3f7c25bf7343e3575f0354d33b2e2e5cd"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ",
+        "บางข้อบูรณาการระหว่างเนื้อหา; ทางการไม่ระบุการกระจายรูปแบบข้อสอบรายหมวด"
+      ]
+    },
+    {
+      "id": "Thai",
+      "code": "81",
+      "nameTh": "ภาษาไทย",
+      "nameEn": "Thai Language",
+      "totalQuestions": 50,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ปรนัย 5 ตัวเลือก",
+          "count": 50,
+          "totalScore": 100,
+          "pointsPerQuestion": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "thai-1",
+          "order": 1,
+          "name": "การอ่าน",
+          "subtopics": [
+            {
+              "name": "การอ่านเพื่อเข้าใจเนื้อหา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การจับใจความ/การสรุปสาระสำคัญของข้อความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การตีความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การวิเคราะห์จุดประสงค์/เจตนาของผู้เขียน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การวิเคราะห์ข้อคิด/แนวคิดที่ได้จากการอ่าน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การอนุมานจากเนื้อหาของข้อความที่อ่าน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ท่าที/น้ำเสียง/อารมณ์ความรู้สึก/ความคิดเห็นของผู้เขียน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": null,
+          "officialScore": null,
+          "percentage": null,
+          "scoreCoverage": null,
+          "weightMidpoint": null,
+          "rank": null
+        },
+        {
+          "id": "thai-2",
+          "order": 2,
+          "name": "การเขียน",
+          "subtopics": [
+            {
+              "name": "การเรียงลำดับข้อความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การเรียงความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การพรรณา/บรรยาย/อธิบาย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การใช้เหตุผล",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การแสดงทรรศนะ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การโต้แย้ง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การโน้มน้าว",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": null,
+          "officialScore": null,
+          "percentage": null,
+          "scoreCoverage": null,
+          "weightMidpoint": null,
+          "rank": null
+        },
+        {
+          "id": "thai-3",
+          "order": 3,
+          "name": "การพูด การฟัง",
+          "subtopics": [
+            {
+              "name": "การวิเคราะห์จุดประสงค์ในการพูด",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การใช้ข้อความถาม และตอบที่สัมพันธ์กัน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การตีความ/อนุมาน/วิเคราะห์สาร/บุคลิกของผู้พูดหรือผู้ฟัง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": null,
+          "officialScore": null,
+          "percentage": null,
+          "scoreCoverage": null,
+          "weightMidpoint": null,
+          "rank": null
+        },
+        {
+          "id": "thai-4",
+          "order": 4,
+          "name": "หลักการใช้ภาษา",
+          "subtopics": [
+            {
+              "name": "การสะกดคำ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การใช้คำตรงความหมาย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ประโยคกำกวม/ประโยคบกพร่อง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ประโยคสมบูรณ์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ระดับภาษา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การใช้สำนวนถูกต้องตามความหมาย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ชนิดของประโยคตามเจตนา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "คำที่มีความหมายตรง/อุปมา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "คำทับศัพท์ภาษาอังกฤษ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ราชาศัพท์",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": null,
+          "officialScore": null,
+          "percentage": null,
+          "scoreCoverage": null,
+          "weightMidpoint": null,
+          "rank": null
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-81-thai/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "1ca7fd6c5dd1cfcacba889dbd2c9405d4111b6b4c383baca74f49af35f12a2fd"
+      },
+      "notes": [
+        "ทางการไม่ระบุจำนวนข้อรายหมวด จึงไม่สามารถคำนวณสัดส่วน คะแนนรายหมวด หรืออันดับได้"
+      ]
+    },
+    {
+      "id": "Social",
+      "code": "70",
+      "nameTh": "สังคมศึกษา",
+      "nameEn": "Social Studies",
+      "totalQuestions": 50,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ศาสนา ศีลธรรม จริยธรรม",
+          "count": 10,
+          "totalScore": 20,
+          "pointsPerQuestion": 2
+        },
+        {
+          "label": "หน้าที่พลเมือง วัฒนธรรมและการดำเนินชีวิตในสังคม",
+          "count": 10,
+          "totalScore": 20,
+          "pointsPerQuestion": 2
+        },
+        {
+          "label": "เศรษฐศาสตร์",
+          "count": 10,
+          "totalScore": 20,
+          "pointsPerQuestion": 2
+        },
+        {
+          "label": "ประวัติศาสตร์",
+          "count": 10,
+          "totalScore": 20,
+          "pointsPerQuestion": 2
+        },
+        {
+          "label": "ภูมิศาสตร์",
+          "count": 10,
+          "totalScore": 20,
+          "pointsPerQuestion": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "social-1",
+          "order": 1,
+          "name": "ศาสนา ศีลธรรม จริยธรรม",
+          "subtopics": [
+            {
+              "name": "ความสำคัญ ศาสดา หลักธรรมของพระพุทธศาสนา ศาสนาอื่น มีศรัทธาที่ถูกต้อง ยึดมั่นและปฏิบัติตามหลักธรรมเพื่ออยู่ร่วมกันอย่างสันติสุข",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การปฏิบัติตนเป็นศาสนิกชนที่ดี และธำรงรักษาพระพุทธศาสนา หรือ ศาสนาที่ตนนับถือ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 10,
+            "max": 10,
+            "kind": "official"
+          },
+          "officialScore": 20,
+          "percentage": {
+            "min": 20,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "weightMidpoint": 20,
+          "rank": 1
+        },
+        {
+          "id": "social-2",
+          "order": 2,
+          "name": "หน้าที่พลเมือง วัฒนธรรมและการดำเนินชีวิตในสังคม",
+          "subtopics": [
+            {
+              "name": "หน้าที่ของการเป็นพลเมืองที่ดี มีค่านิยมที่ดีงาม การธำรงรักษาประเพณีและวัฒนธรรมไทย การดำรงชีวิตอยู่ร่วมกันในสังคมไทยและสังคมโลกอย่างสันติสุข",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "การเมืองการปกครองในสังคมปัจจุบัน การยึดมั่น ศรัทธา และธำรงรักษาไว้ซึ่งการปกครองระบอบประชาธิปไตย อันมีพระมหากษัตริย์ทรงเป็นประมุข",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 10,
+            "max": 10,
+            "kind": "official"
+          },
+          "officialScore": 20,
+          "percentage": {
+            "min": 20,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "weightMidpoint": 20,
+          "rank": 1
+        },
+        {
+          "id": "social-3",
+          "order": 3,
+          "name": "เศรษฐศาสตร์",
+          "subtopics": [
+            {
+              "name": "บริหารจัดการทรัพยากรในการผลิตและการบริโภคใช้ทรัพยากรที่มีอยู่จำกัดได้อย่างมีประสิทธิภาพและคุ้มค่า รวมทั้งเข้าใจหลักการของเศรษฐกิจพอเพียงเพื่อการดำรงชีวิตอย่างมีดุลยภาพ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "สถาบันทางเศรษฐกิจต่าง ๆ ความสัมพันธ์ทางเศรษฐกิจและ ความจำเป็นของการร่วมมือกันทางเศรษฐกิจในสังคมโลก",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 10,
+            "max": 10,
+            "kind": "official"
+          },
+          "officialScore": 20,
+          "percentage": {
+            "min": 20,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "weightMidpoint": 20,
+          "rank": 1
+        },
+        {
+          "id": "social-4",
+          "order": 4,
+          "name": "ประวัติศาสตร์",
+          "subtopics": [
+            {
+              "name": "เวลา และยุคสมัยทางประวัติศาสตร์ หลักฐานและวิธีการทางประวัติศาสตร์ วิเคราะห์เหตุการณ์ต่าง ๆ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "พัฒนาการของมนุษยชาติจากอดีตจนถึงปัจจุบัน ในด้านความสัมพันธ์และการเปลี่ยนแปลงของเหตุการณ์ในทวีปเอเซีย ยุโรป แอฟริกา และอเมริกา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ชาติไทย การเมืองเศรษฐกิจ สังคมวัฒนธรรม ประเพณี ภูมิปัญญาไทย มีความรัก ความภูมิใจ และความเป็นไทย",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 10,
+            "max": 10,
+            "kind": "official"
+          },
+          "officialScore": 20,
+          "percentage": {
+            "min": 20,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "weightMidpoint": 20,
+          "rank": 1
+        },
+        {
+          "id": "social-5",
+          "order": 5,
+          "name": "ภูมิศาสตร์",
+          "subtopics": [
+            {
+              "name": "โลกทางกายภาพ และความสัมพันธ์ของสรรพสิ่งซึ่งมีผลต่อกัน ใช้แผนที่และเครื่องมือทางภูมิศาสตร์ ในการค้นหาวิเคราะห์สรุปข้อมูลตามกระบวนการทางภูมิศาสตร์ ตลอดจนใช้ภูมิสารสนเทศอย่างมีประสิทธิภาพ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ปฏิสัมพันธ์ระหว่างมนุษย์กับสภาพแวดล้อมทางกายภาพที่ก่อให้เกิดการสร้างสรรค์วิถีการดาเนินชีวิต มีจิตสำนึกและมีส่วนร่วม ในการจัดการทรัพยากรสิ่งแวดล้อม เพื่อการพัฒนาที่ยั่งยืน",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 10,
+            "max": 10,
+            "kind": "official"
+          },
+          "officialScore": 20,
+          "percentage": {
+            "min": 20,
+            "max": 20,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "weightMidpoint": 20,
+          "rank": 1
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-70-soc/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "0f3954d6d214a8eb62590f52dfb4b9d78a1ce4136755f23225c2ffc3e715c4ac"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ"
+      ]
+    },
+    {
+      "id": "English",
+      "code": "82",
+      "nameTh": "ภาษาอังกฤษ",
+      "nameEn": "English",
+      "totalQuestions": 80,
+      "totalScore": 100,
+      "durationMinutes": 90,
+      "formats": [
+        {
+          "label": "ทักษะการฟังและการพูด (Listening and Speaking Skills)",
+          "count": 20,
+          "totalScore": 25,
+          "pointsPerQuestion": 1.25
+        },
+        {
+          "label": "ทักษะการอ่าน (Reading Skill)",
+          "count": 40,
+          "totalScore": 50,
+          "pointsPerQuestion": 1.25
+        },
+        {
+          "label": "ทักษะการเขียน (Writing Skill)",
+          "count": 20,
+          "totalScore": 25,
+          "pointsPerQuestion": 1.25
+        }
+      ],
+      "groups": [
+        {
+          "id": "english-1",
+          "order": 1,
+          "name": "ทักษะการฟังและการพูด (Listening and Speaking Skills)",
+          "subtopics": [
+            {
+              "name": "เติมบทสนทนาแบบสั้น (Short conversation) จำนวน 3 บทสนทนา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เติมบทสนทนาแบบยาว (Long conversation) จำนวน 1 บทสนทนา",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "officialScore": 25,
+          "percentage": {
+            "min": 25,
+            "max": 25,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 25,
+            "max": 25,
+            "kind": "official"
+          },
+          "weightMidpoint": 25,
+          "rank": 2
+        },
+        {
+          "id": "english-2",
+          "order": 2,
+          "name": "ทักษะการอ่าน (Reading Skill)",
+          "subtopics": [
+            {
+              "name": "โฆษณา (Advertisement) จำนวน 2 บทความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "บทวิจารณ์สินค้าหรือบริการ (Product or service review) จำนวน 1 บทความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "รายงานข่าว (News report) จำนวน 1 บทความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "ภาพประกอบบทความ (Visual) เช่น กราฟ ตาราง แผนผัง หรือ แผนภูมิ จำนวน 2 เรื่อง",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "บทความทั่วไป ที่ มีจำนวนคำประมา ณ 500– 600 คำ หรือ 1 หน้ากระดาษ A4 จำนวน 2 บทความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 40,
+            "max": 40,
+            "kind": "official"
+          },
+          "officialScore": 50,
+          "percentage": {
+            "min": 50,
+            "max": 50,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 50,
+            "max": 50,
+            "kind": "official"
+          },
+          "weightMidpoint": 50,
+          "rank": 1
+        },
+        {
+          "id": "english-3",
+          "order": 3,
+          "name": "ทักษะการเขียน (Writing Skill)",
+          "subtopics": [
+            {
+              "name": "เติมบทความให้สมบูรณ์ (Text completion) จำนวน 3 บทความ",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            },
+            {
+              "name": "เรียงประโยคให้เป็นย่อหน้าที่สมบูรณ์ (Paragraph organization) จำนวน 5 ย่อหน้า",
+              "questionCount": null,
+              "percentage": null,
+              "scoreCoverage": null,
+              "status": "not-published"
+            }
+          ],
+          "questionCount": {
+            "min": 20,
+            "max": 20,
+            "kind": "official"
+          },
+          "officialScore": 25,
+          "percentage": {
+            "min": 25,
+            "max": 25,
+            "kind": "derived-from-official"
+          },
+          "scoreCoverage": {
+            "min": 25,
+            "max": 25,
+            "kind": "official"
+          },
+          "weightMidpoint": 25,
+          "rank": 2
+        }
+      ],
+      "source": {
+        "url": "https://www.mytcas.com/blueprint/a-level-82-eng/",
+        "verifiedAt": "2026-10-10",
+        "status": "verified",
+        "htmlSha256": "d979d4ceb210dddf09e92282c1bf28493e9ea6f6ef487a97087355e6566fc5a4"
+      },
+      "notes": [
+        "ช่วงจำนวนข้อแต่ละหมวดเป็นขอบเขตตาม Blueprint ไม่ควรรวมค่าต่ำสุดหรือสูงสุดเป็นจำนวนข้อทั้งฉบับ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "a-level-exam-weight-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run validate:data && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "validate:data": "node scripts/validate-data.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "data:import": "node scripts/import-blueprint.mjs"
+  },
+  "dependencies": { "react": "19.3.0", "react-dom": "19.3.0" },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

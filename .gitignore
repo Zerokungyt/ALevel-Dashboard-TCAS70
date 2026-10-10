@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.cache/
+*.tmp.html
+*.tsbuildinfo
+.env
+.env.*
+*.log
+test-results/
